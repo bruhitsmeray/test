@@ -12,13 +12,63 @@ body {
     overflow-x: hidden;
 }
 
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* COLORS */
+.spotify {
+    color: green;
+}
+
+.ytmusic {
+    color: red;
+}
+
+.twitch {
+    color: rgb(100, 0, 130);
+}
+/* ****** */
+
 #showcase {
     height: 100vh;
     background: url(/assets/images/G_background.png) no-repeat center center/cover;
     background: linear-gradient(to right bottom, #4b4b4b, #ac995d)
 }
 
-.container {
-    max-width: 1100px;
-    margin: auto;
+#twitch-section{
+    display: flex;
+    text-align: center;
+
+    justify-content: center;
+}
+
+#twitch-wrapper {
+    width: 1300px;
+    height: 820px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border: 10px solid gray;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#twitch-heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 32px;
+    color: white;
+}
+
+#twitch-heading a {
+    text-decoration: none;
+}
+
+#twitch-embed {
+    width: 1280px;
+    height: 720px;
 }
