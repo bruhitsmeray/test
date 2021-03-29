@@ -12,48 +12,13 @@ body {
     overflow-x: hidden;
 }
 
+#showcase {
+    height: 100vh;
+    background: url(/assets/images/G_background.png) no-repeat center center/cover;
+    background: linear-gradient(to right bottom, #4b4b4b, #ac995d)
+}
+
 .container {
     max-width: 1100px;
     margin: auto;
 }
-
-/* #region NAVBAR */
-#navbar {
-    z-index: 1;
-    top: 0;
-
-    height: 8vh;
-    position: sticky;
-
-    color: black;
-    background: rgb(245, 245, 245);
-}
-
-/* #region NAVBAR_LINKS */
-.nlinks {
-    height: 100%;
-
-    display: flex;
-    list-style: none;
-
-    align-items: center;
-    justify-content: space-around;
-}
-
-.nlinks li a {
-    border-radius: 10px;
-    color: black;
-
-    /* the padding is in place for the hovering */
-    padding: 18px;
-
-    text-decoration: none;
-    transition: background-color 0.25s;
-}
-
-.nlinks li a:hover {
-    color: rgb(45, 45, 45);
-    background: linear-gradient(to bottom, gray, whitesmoke);
-}
-/* #endregion */
-/* #endregion */
