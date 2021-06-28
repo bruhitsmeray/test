@@ -71,10 +71,10 @@ header ul li a:hover, .active {
 
 #showcase {
     height: 88vh;
-    width:88vh;
-    background: #fff;
-
+    color: #fff;
+    font-size: 48px;
     border-radius: 20px;
+    justify-content: center;
 }
 
 section {
