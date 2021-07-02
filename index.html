@@ -8,28 +8,42 @@
         <link rel="stylesheet" type="text/css" href="styles/style.css">
     </head>
     <body>
-        <header>
+        <header id="navbar">
             <a href="#" class="logo">Whiteline</a>
             <ul>
                 <li><a href="#" class="active">HOME</a></li>
+                <li><a href="/pages/commits.html">COMMITS</a></li>
                 <li><a href="#">PROJECTS</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </header>
-        <header id = "showcase">
-            <div class="showcase-content">
-                <div class="container">
-                    <h1>WELCOME</h1>
+        <section id="projects">
+            <div class="container">
+                <div class="boxes">
+                    <div class="project">
+                        <h1>DECAY</h1>
+                        <p><br>Decay is a in-development Unreal Engine 4 game.</p>
+                    </div>
+
+                    <div class="project">
+                        <h1>EUTERA - RELEASED IN: 2020 - LAST VERSION: 3.0.2</h1>
+                        <p><br>Eutera was a Discord bot build with NodeJS, released in late 2020 and being shutdown on April 2021. A part of it's code is being used in the "vider" project that is hosted on GitHub.</p>
+                    </div>
+
+                    <div class="project">
+                        <h1>RENAISSANCE</h1>
+                        <p><br>"RENAISSANCE" is an album yet to be released on YouTube & SoundCloud. Until now 4 out of 16 tracks have been released.</p>
+                        <div class="feature">
+                            <a href = "https://youtube.com/playlist?list=PLRIUpVQSGpGHGLEdio-toi17swMOkPW6R" class = "btn" target = "_blank">WATCH ON YOUTUBE</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </header>
-        <div class="work">
-            <h1>DECAY</h1>
-            <p>Decay is a in-development Unreal Engine 4 game.</p>
-        </div>
-        <div class="work">
-            <h1>EUTERA - RELEASED IN: 2020 - LAST VERSION: 3.0.2</h1>
-            <p>Eutera was a Discord bot. The bot is now offline but it's code is used in the vider project, hosted on GitHub.</p>
-        </div>
+        </section>
+        
+        <footer>
+            <p>&copy;Whiteline</p>
+            <p>2019-2021</p>
+        </footer>
     </body>
 </html>

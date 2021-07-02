@@ -9,7 +9,7 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(to right bottom, #38a87d, #9e53c1)
+    background: linear-gradient(to right bottom, #38a87d, #9e53c1);
 }
 
 ::-webkit-scrollbar {
@@ -28,6 +28,7 @@ header {
 
     width: 100%;
     padding: 30px 100px;
+    margin-bottom: 40px;
 
     display: flex;
     align-items: center;
@@ -70,10 +71,10 @@ header ul li a:hover, .active {
 }
 
 #showcase {
-    height: 88vh;
+    height: 94.35vh;
     color: #fff;
+    
     font-size: 48px;
-    border-radius: 20px;
     justify-content: center;
 }
 
@@ -98,16 +99,48 @@ section {
     top: 30vh;
 }
 
-.work {
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.project {
     padding: 100px;
     position: relative;
+
+    background: #fff;
+    border-radius: 10px;
 }
 
-.work h1 {
-    color: #fff;
+.project h1 {
+    color: #333;
 }
 
-.work p {
+.project p {
     font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#projects {
+    margin-bottom: 20px;
+}
+
+#projects .btn {
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+}
+
+footer p {
+    text-align: center;
     color: #fff;
 }
